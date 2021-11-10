@@ -5,7 +5,7 @@ node_modules/
 vendor/
 
 # Personal PHPStan configs
-src/wordpress/phpstan.neon
+phpstan.neon
 
 # Build folder
 build/
