@@ -10,5 +10,5 @@
 	</rule>
 	<!-- config-stop -->
 	<rule ref="../common-php-rules.xml"/>
-	<file>.</file>
+	<file>./src</file>
 </ruleset>
