@@ -9,3 +9,6 @@ src/wordpress/phpstan.neon
 
 # Build folder
 build/
+
+# environment variables
+.env
