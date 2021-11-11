@@ -46,11 +46,15 @@ $addresses_page_id = add_required_page( $args );
 
 /**
  * Add page labels in the CMS.
+ * 
+ * @param string[] $post_states An array of post display states.
+ * @param WP_Post  $post The current post object.
+ *
+ * @return string[]
  */
-add_filter( 'display_post_states', 'add_post_state', 10, 2 );
-
 function add_post_state( $post_states, $post ) {
-	/*
+	/* phpcs:ignore Squiz.PHP.CommentedOutCode.Found
+	Use this snippet to add a label to your required pages. This will help highlight that they are required by the theme.
 	switch ( $post->ID ) {
 		case get_option( 'login_page' ):
 			$post_states[] = 'Login Page';
@@ -59,6 +63,7 @@ function add_post_state( $post_states, $post ) {
 	*/
 	return $post_states;
 }
+add_filter( 'display_post_states', 'add_post_state', 10, 2 );
 
 /**
  * Add page helper function.
