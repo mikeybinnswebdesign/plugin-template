@@ -64,7 +64,7 @@ function add_post_state( $post_states, $post ) {
 	*/
 	return $post_states;
 }
-add_filter( 'display_post_states', 'add_post_state', 10, 2 );
+add_filter( 'display_post_states', __NAMESPACE__ . '\\add_post_state', 10, 2 );
 
 /**
  * Add page helper function.
