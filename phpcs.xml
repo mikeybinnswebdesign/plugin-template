@@ -11,4 +11,5 @@
 	<!-- config-stop -->
 	<rule ref="./common-php-rules.xml"/>
 	<file>./src</file>
+	<rule ref="WPThemeReview"/>
 </ruleset>
