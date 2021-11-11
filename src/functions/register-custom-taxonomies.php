@@ -9,7 +9,7 @@
 
 namespace %%PLUGIN_NAMESPACE%%\add_custom_tax;
 
-/*
+/* phpcs:ignore Squiz.PHP.CommentedOutCode.Found
 function custom_taxonomy() {
 
 	$labels = array(
