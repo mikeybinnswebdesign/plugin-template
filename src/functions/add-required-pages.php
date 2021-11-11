@@ -9,7 +9,7 @@
 
 namespace %%PLUGIN_NAMESPACE%%\add_required_page;
 
-use WP_Error;
+use WP_Post, WP_Error;
 
 /* phpcs:ignore Squiz.PHP.CommentedOutCode.Found
 Usage:
