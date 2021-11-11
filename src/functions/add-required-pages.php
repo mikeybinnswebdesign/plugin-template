@@ -68,7 +68,9 @@ add_filter( 'display_post_states', 'add_post_state', 10, 2 );
 /**
  * Add page helper function.
  *
- * @param array $page_data_array An array of information to turn into a page.
+ * @param array<mixed> $page_data_array An array of information to turn into a page.
+ * 
+ * @return int|WP_Error
  */
 function add_required_page( array $page_data_array ) {
 	if ( ! isset( $page_data_array['name'] ) || ! is_string( $page_data_array['name'] ) || empty( $page_data_array['name'] ) ) {
