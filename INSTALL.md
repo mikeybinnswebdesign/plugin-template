@@ -13,7 +13,7 @@
 1. Take a copy of this code and copy it into a folder outside of the Wordpress installation (excluding .git folder)
 2. Update the filename of the main plugin file in the `src` folder with the placeholder.
 3. Use search and replace to change all placeholders as laid out below. When it's done, the table below should act as a helpful reference guide should you need it.
-4. Set the plugin_folder variable in `.env.example` to point the correct folder and then rename the file to `.env` (the placeholder will be replaced in the next step).
+4. Set the plugin_folder variable in `.env.example` to point the correct folder and then rename the file to `.env`.
 5. Run `npm install` and `composer install` to install all the npm and composer dependencies.
 6. Update dependencies as required using `update` and `outdated` commands for both npm and composer. (be careful of breaking changes)
 7. Perform code editor setup, instructions below.
