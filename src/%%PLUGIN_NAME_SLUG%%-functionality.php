@@ -20,6 +20,7 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
+// phpcs:disable WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 /**
  * Add custom post types.
  */
@@ -34,3 +35,5 @@ require_once 'functions/add-required-pages.php';
  * Add custom categories.
  */
 require_once 'functions/register-custom-taxonomies.php';
+
+// phpcs:enable
