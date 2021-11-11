@@ -19,3 +19,18 @@
  * License:           GPL v2 or later
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
+
+/**
+ * Add custom post types.
+ */
+require_once 'functions/add-post-types.php';
+
+/**
+ * Add required pages.
+ */
+require_once 'functions/add-required-pages.php';
+
+/**
+ * Add custom categories.
+ */
+require_once 'functions/register-custom-taxonomies.php';
