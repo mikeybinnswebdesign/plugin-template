@@ -53,9 +53,10 @@ $addresses_page_id = add_required_page( $args );
  * @return string[]
  */
 function add_post_state( $post_states, $post ) {
+	$post_id = $post->ID;
 	/* phpcs:ignore Squiz.PHP.CommentedOutCode.Found
 	Use this snippet to add a label to your required pages. This will help highlight that they are required by the theme.
-	switch ( $post->ID ) {
+	switch ( $post_id ) {
 		case get_option( 'login_page' ):
 			$post_states[] = 'Login Page';
 			break;
