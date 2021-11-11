@@ -41,7 +41,7 @@ Secondly, there is a folder of recommended extensions. You should have a dialog 
 
 ### Atom (UNTESTED)
 
-First, Find the file named "phpstan-atom.neon". When you have found that, rename it to "phpstan.neon". You can either delete or ignore the other editor files, but make sure you leave phpstan.dist.neon as this is required.
+First, Find the file named "phpstan-atom.neon". When you have found that, copy it to "phpstan.neon". You can either delete or ignore the other editor files, but make sure you leave phpstan.dist.neon as this is required.
 
 Secondly, install the following plugins to improve your editing experience:
 -editorconfig
