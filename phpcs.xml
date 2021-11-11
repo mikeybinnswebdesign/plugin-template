@@ -9,6 +9,6 @@
 		</properties>
 	</rule>
 	<!-- config-stop -->
-	<rule ref="../common-php-rules.xml"/>
+	<rule ref="./common-php-rules.xml"/>
 	<file>./src</file>
 </ruleset>
