@@ -44,6 +44,21 @@ $args = array(
 $addresses_page_id = add_required_page( $args );
 */
 
+/**
+ * Add page labels in the CMS.
+ */
+add_filter( 'display_post_states', 'add_post_state', 10, 2 );
+
+function add_post_state( $post_states, $post ) {
+	/*
+	switch ( $post->ID ) {
+		case get_option( 'login_page' ):
+			$post_states[] = 'Login Page';
+			break;
+	}
+	*/
+	return $post_states;
+}
 
 /**
  * Add page helper function.
