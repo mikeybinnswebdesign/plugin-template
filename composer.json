@@ -18,7 +18,8 @@
 		"phpstan/phpstan": "^0.12.83",
 		"szepeviktor/phpstan-wordpress": "^0.7.5",
 		"php-stubs/wordpress-stubs": "^5.7",
-		"php-stubs/woocommerce-stubs": "^5.2"
+		"php-stubs/woocommerce-stubs": "^5.2",
+		"wptrt/wpthemereview": "^0.2.1"
 	},
 	"scripts": {
 		"lint": "phpcs",
