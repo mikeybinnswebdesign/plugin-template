@@ -36,4 +36,9 @@ require_once 'functions/add-required-pages.php';
  */
 require_once 'functions/register-custom-taxonomies.php';
 
+/**
+ * Add custom REST API endpoints.
+ */
+require_once 'functions/add-rest-endpoints.php';
+
 // phpcs:enable
