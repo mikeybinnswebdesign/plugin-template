@@ -11,6 +11,8 @@
 	<!-- config-stop -->
 	<rule ref="./common-php-rules.xml"/>
 	<file>./src</file>
-	<rule ref="WPThemeReview"/>
+	<rule ref="WPThemeReview">
+		<exclude name="WPThemeReview.PluginTerritory"/>
+	</rule>
 	<rule ref="./php-version.xml"/>
 </ruleset>
